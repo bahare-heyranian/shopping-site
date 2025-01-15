@@ -1,0 +1,353 @@
+body{
+    background-color: rgb(239, 166, 140);
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: space-between; */
+    min-height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(187, 61, 39);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+    align-items: center;
+}
+.home{
+    
+    color: aliceblue;
+    padding: 25px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.prudoct{
+    color: aliceblue;
+    padding: 25px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold; 
+}
+.money{
+    display: inline;
+    padding: 25px;
+    color: aliceblue;
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+.a{
+    padding: 10px;
+}
+.login{
+    width: 230px;
+    height: 50px;
+    background-color: rgb(106, 30, 16);
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 5px;
+    border-color: rgb(96, 21, 7);
+    margin: 50px;
+    
+    
+}
+.login:hover{
+    background-color: rgb(161, 65, 48);
+    color: aliceblue;
+    box-shadow: 10px;
+}
+.prudoctcontiner{
+    display: grid;
+    grid-template-columns: repeat(3);
+    width: 100%;
+}
+.prudoctbox1{
+    height: 400px;
+    background-color: rgb(187, 61, 39);
+    border-radius: 10px;
+    border-color: rgb(106, 30, 16);
+    border-width: 5px;
+    text-align: center;
+}
+.prudoctbox2{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(187, 61, 39);
+    border-radius: 10px;
+    border-color: rgb(106, 30, 16);
+    border-width: 5px;
+    text-align: center;
+    margin: 50px;
+}
+.prudoctbox3{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(187, 61, 39);
+    border-radius: 10px;
+    border-color: rgb(106, 30, 16);
+    border-width: 5px;
+    text-align: center;
+    margin: 50px;
+}
+.prudoctbox4{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(187, 61, 39);
+    border-radius: 10px;
+    border-color: rgb(106, 30, 16);
+    border-width: 5px;
+    text-align: center;
+    margin: 50px;
+}
+.prudoctbox5{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(187, 61, 39);
+    border-radius: 10px;
+    border-color: rgb(106, 30, 16);
+    border-width: 5px;
+    text-align: center;
+    margin: 50px;
+}
+.prudoctbox6{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(187, 61, 39);
+    border-radius: 10px;
+    border-color: rgb(106, 30, 16);
+    border-width: 5px;
+    text-align: center;
+    margin: 50px;
+}
+
+.image{
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+    /* padding-top: 10px; */
+    
+
+}
+.info{
+    direction: rtl;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 5px;
+
+}
+.value{
+    display: flex;
+    justify-content: flex-start;
+    direction: rtl;
+    font-size: 25px;
+    font-weight: bold;
+    color: aliceblue;
+    padding-top: 0;
+    padding-right: 50px;
+    
+}
+.b{
+    padding-left: 5px;
+}
+.shop{
+    margin-right: 30px;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgb(85, 25, 14);
+    color: aliceblue;
+    border-radius: 10px;
+    border: 5px;
+    border-color: rgb(96, 21, 7);
+    font-size: 20px;
+    font-weight: bold;
+}
+.shop:hover{
+    background-color: rgb(161, 65, 48);
+    color: aliceblue;
+    box-shadow: 10px;
+}
+.footer{
+    width: 100%;
+    /* position: absolute; */
+    height: 16rem;
+    bottom: 0;
+    background-color: rgb(187, 61, 39);
+    text-align: center;
+    
+    
+}
+.hh{
+    font-size: 50px;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 78px auto;
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: rgb(162, 39, 17);
+    padding: 10px;
+    gap: 10px;
+  }
+.grid-item {
+    background-color: rgba(206, 109, 109, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    gap:20px;
+    text-align: center;
+  }
+.mm{
+    font-size: 15px;
+    font-weight: bold;
+    color: aliceblue;
+  }
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.popup-content {
+    background: #e7afaf;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.aa{
+    font-size: 35px;
+    font-weight: bold;
+    color:rgb(96, 21, 7) ;
+
+}
+.productForm{
+    width: 200px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(96, 21, 7) ;
+    text-align: center;
+    margin: 30px;
+}
+.kk{
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(96, 21, 7) ;
+    text-align: center;
+    margin: 10px auto;
+}
+.yy{
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(96, 21, 7) ;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: rgb(106, 30, 16);
+    box-sizing: 10px;
+    box-shadow: 5px;
+    margin: 10px auto;
+}
+
+.savebtn{
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(237, 228, 226) ;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    border-color: rgb(106, 30, 16);
+    box-sizing: 10px;
+    box-shadow: 5px;
+    background-color: rgb(96, 21, 7) ;;
+}
+.lll{
+    font-size: 25px;
+    font-weight: bold;
+    color:rgb(237, 228, 226) ;
+    text-align: center;
+    width: 75px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: rgb(21, 85, 48);
+    box-sizing: 10px;
+    box-shadow: 5px;
+    background-color: rgb(32, 96, 32) ;;
+}
+/* استایل جدید برای جستجو در بخش ناوبری */
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 35px;
+}
+
+#searchInput {
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px solid rgb(106, 30, 16);
+    border-radius: 5px;
+    color: rgb(96, 21, 7);
+    text-align: right;
+    margin-left: 10px;
+}
+
+#searchButton {
+    height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: rgb(106, 30, 16);
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#searchButton:hover {
+    background-color: rgb(161, 65, 48);
+}
+
+/* تغییرات در ناوبری برای جای‌دهی بهتر */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+}
+
+.home, .prudoct, .money, .login {
+    margin: 0 10px;
+}
